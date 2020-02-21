@@ -1,0 +1,3 @@
+C:/Users/Kev/Documents/UNI/parallel/cmake-build-debug/CMakeFiles/parallel.dir
+C:/Users/Kev/Documents/UNI/parallel/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kev/Documents/UNI/parallel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
