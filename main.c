@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
 /*
- * EX1
+EX1
 The following expansion, shown in image (open the following link in a new tab)
 https://events.prace-ri.eu/event/845/images/127-pi-series.png, gives an approximation to the exact value of π.
 // For example, it is easy to check by hand that for N=1 the result is as shown in equation mage
@@ -47,9 +47,9 @@ double computePi(unsigned int N){
 }
 
 
-double computeErr_ex1(double N){
+double computeErr_ex1(unsigned int N){
     double err=(computePi(N) - M_PI);
-    printf("error for %.0f is %.56f\n\n",N,err);
+    printf("error for %i is %.56f\n\n",N,err);
     return err;
 }
 
@@ -64,7 +64,7 @@ int serial_ex2(double err){
     return 0;
 }
 
-int logMode_ex3(double err, unsigned int initial_min,unsigned int initial_max){
+unsigned int logMode_ex3(double err, unsigned int initial_min,unsigned int initial_max){
     //I'm not checking overflow for mid, should be added
     unsigned int min=initial_min;
     unsigned int max= initial_max;
